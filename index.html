@@ -120,11 +120,11 @@
   <!-- Sección Contacto -->
   <section class="contacto" id="contacto">
     <h2>CONTACTA A NUESTRO EQUIPO HOY</h2>
-    <form>
-      <input type="text" placeholder="Nombre">
-      <input type="email" placeholder="Correo electrónico">
-      <textarea placeholder="Mensaje"></textarea>
-      <button class="btn-outline-blue">Enviar mensaje</button>
+    <form id="contacto-form">
+      <input type="text" name="nombre" placeholder="Nombre">
+      <input type="email" name="email" placeholder="Correo electrónico">
+      <textarea name="mensaje" placeholder="Mensaje"></textarea>
+      <button type="submit" class="btn-outline-blue">Enviar mensaje</button>
     </form>
   </section>
 
@@ -132,5 +132,27 @@
   <footer>
     <p>PARTYKIDS</p>
   </footer>
+
+  <main>
+
+  <!-- Pop-up de Mensaje Enviado -->
+  <div id="success-popup" class="popup-container">
+    <div class="popup-content">
+      <h3>¡Mensaje Enviado!</h3>
+      <p>Gracias por contactarnos. Le responderemos a la brevedad.</p>
+      <button class="popup-close btn-outline-blue">Cerrar</button>
+    </div>
+  </div>
+
+  <!-- Pop-up de Validación -->
+  <div id="validation-popup" class="popup-container">
+    <div class="popup-content">
+      <h3>Faltan Campos</h3>
+      <p>Por favor, complete todos los campos antes de enviar.</p>
+      <button class="popup-close btn-outline-blue">Cerrar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
