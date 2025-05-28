@@ -370,3 +370,170 @@ footer {
   margin-bottom: 24px;
 }
 
+@media (max-width: 768px) {
+  body {
+    font-size: 1rem;
+  }
+
+  .header-overlay h1 {
+    font-size: 1.8rem;
+  }
+
+  .header-overlay p {
+    font-size: 1rem;
+  }
+
+  .juegos-asombrosos {
+    flex-direction: column;
+    padding: 40px 16px;
+  }
+
+  .juegos-texto {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .juegos-imagenes {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: auto;
+  }
+
+  .juegos-imagenes .imagenes-superiores {
+      flex-direction: row;
+      justify-content: center;
+      gap: 10px;
+  }
+
+  .juegos-imagenes .imagenes-superiores img {
+      width: 100px;
+      height: 100px;
+      border-radius: 10px;
+  }
+
+  .juegos-imagenes .imagen-inferior {
+      width: calc(200px + 10px); /* Ancho de dos imágenes superiores + gap */
+      height: 100px;
+      border-radius: 10px;
+  }
+
+  .diversion {
+    padding: 40px 16px;
+  }
+
+  .diversion h2 {
+    font-size: 2rem;
+  }
+
+  .diversion p {
+    font-size: 1rem;
+  }
+
+  .alegria-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .card {
+      width: auto;
+      padding: 24px 20px;
+  }
+
+  .card img {
+      width: 180px;
+      height: 140px;
+  }
+
+  .card h3 {
+      font-size: 1.2rem;
+  }
+
+  .card p {
+      font-size: 0.95rem;
+  }
+
+  .testimonios {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .testimonio {
+    width: auto;
+    padding: 20px;
+  }
+
+   .cliente-info img {
+     width: 50px;
+     height: 50px;
+     top: -25px;
+     left: 20px;
+     border: 2px solid #fff;
+   }
+
+   .testimonio p {
+     margin-top: 30px;
+     font-size: 1rem;
+   }
+
+   .testimonio span {
+     font-size: 0.9rem;
+   }
+
+  .ubicacion {
+    padding: 30px 16px;
+  }
+
+  .ubicacion h3 {
+      font-size: 1.3rem;
+  }
+
+  .ubicacion p {
+      font-size: 1rem;
+  }
+
+  .contacto {
+    padding: 40px 16px;
+  }
+
+  .contacto form {
+    align-items: stretch;
+  }
+
+  .contacto input, .contacto textarea {
+      width: 100%;
+      box-sizing: border-box; /* Incluye padding y border en el ancho */
+  }
+}
+
+@media (max-width: 600px) {
+  .alegria h2, .clientes h2 {
+      font-size: 2rem;
+  }
+
+  .alegria-cards, .testimonios {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .card {
+      width: 85%; /* Permite que la tarjeta ocupe la mayor parte del ancho */
+      margin: 0 auto; /* Centra la tarjeta */
+  }
+
+   .testimonio {
+     width: 85%; /* Permite que la tarjeta ocupe la mayor parte del ancho */
+     margin: 0 auto; /* Centra la tarjeta */
+   }
+
+   .cliente-info img {
+     left: 16px;
+   }
+
+   .popup-content {
+     width: 90%;
+     padding: 30px;
+   }
+}
+
