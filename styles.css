@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f8f8f8;
+  color: #222;
+}
+
+.header {
+  background: url('header-bg.jpg') center/cover no-repeat;
+  height: 300px;
+  position: relative;
+  color: #fff;
+}
+.header-overlay {
+  background: rgba(0, 60, 100, 0.5);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.juegos-asombrosos {
+  display: flex;
+  background: #336699;
+  color: #fff;
+  padding: 40px 0;
+  justify-content: space-around;
+  align-items: center;
+}
+.juegos-texto {
+  max-width: 400px;
+}
+.juegos-imagenes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.juegos-imagenes img {
+  width: 120px;
+  border-radius: 10px;
+}
+
+.diversion {
+  background: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.alegria {
+  background: #336699;
+  color: #fff;
+  padding: 40px 0;
+}
+.alegria-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  background: #fff;
+  color: #222;
+  border-radius: 10px;
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.clientes {
+  background: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+.testimonios {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.testimonio {
+  background: #e0eafc;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+}
+
+.ubicacion {
+  background: #336699;
+  color: #fff;
+  padding: 40px 0 30px 0;
+  text-align: center;
+}
+.ubicacion h3 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+.ubicacion p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+.mapa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  max-width: none;
+  border-radius: 0;
+  overflow: hidden;
+  box-shadow: none;
+  background: #fff;
+  width: 100vw;
+}
+.mapa iframe {
+  width: 100vw;
+  min-height: 250px;
+  height: 300px;
+  border: none;
+  display: block;
+}
+
+.contacto {
+  background: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+.contacto form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.contacto input, .contacto textarea {
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+button, .contacto button, .juegos-asombrosos button {
+  background: linear-gradient(90deg, #ffb347 0%, #ffcc33 100%);
+  color: #222;
+  border: none;
+  padding: 12px 36px;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  transition: all 0.2s ease;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+button:hover, .contacto button:hover, .juegos-asombrosos button:hover {
+  background: linear-gradient(90deg, #ffcc33 0%, #ffb347 100%);
+  color: #fff;
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 6px 24px rgba(255,179,71,0.25);
+}
+
+.btn-outline {
+  background: transparent !important;
+  color: #fff !important;
+  border: 3px solid #fff !important;
+  padding: 12px 36px;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: none;
+  transition: all 0.2s ease;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+.btn-outline:hover {
+  background: #fff !important;
+  color: #336699 !important;
+  border-color: #fff !important;
+  transform: translateY(-2px) scale(1.04);
+}
+
+.btn-outline-blue {
+  background: transparent !important;
+  color: #336699 !important;
+  border: 3px solid #336699 !important;
+  padding: 12px 36px;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: none;
+  transition: all 0.2s ease;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+.btn-outline-blue:hover {
+  background: #336699 !important;
+  color: #fff !important;
+  border-color: #336699 !important;
+  transform: translateY(-2px) scale(1.04);
+}
+
+footer {
+  background: #224466;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
